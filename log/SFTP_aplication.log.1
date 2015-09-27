@@ -1,0 +1,326 @@
+2015-09-27 18:25:41 ERROR SFTPClient: - error en el envio del fichero /tmp/fichero1.txt reintentar 
+4: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient.enviaSFTP(SFTPClient.java:41)
+	at sftp.SFTPMain.main(SFTPMain.java:22)
+Caused by: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:389)
+	... 3 more
+2015-09-27 18:28:28 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-09-27 18:30:31 ERROR SFTPClient: - error de en la apertura del canal sftp 
+com.jcraft.jsch.JSchException: session is down
+	at com.jcraft.jsch.Session.openChannel(Session.java:844)
+	at sftp.SFTPClient.setConfig(SFTPClient.java:61)
+	at sftp.SFTPClient.<init>(SFTPClient.java:32)
+	at sftp.SFTPMain.main(SFTPMain.java:21)
+2015-09-27 18:30:40 ERROR SFTPClient: - error de en la apertura del canal sftp 
+com.jcraft.jsch.JSchException: session is down
+	at com.jcraft.jsch.Session.openChannel(Session.java:844)
+	at sftp.SFTPClient.setConfig(SFTPClient.java:61)
+	at sftp.SFTPClient.<init>(SFTPClient.java:32)
+	at sftp.SFTPMain.main(SFTPMain.java:21)
+2015-09-27 18:31:01 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-09-27 18:31:01 INFO  SFTPClient: - fichero enviado
+2015-09-27 18:31:01 INFO  SFTPClient: - fichero enviado
+2015-09-27 18:31:20 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-09-27 18:31:20 INFO  SFTPClient: - fichero enviado
+2015-09-27 18:31:20 INFO  SFTPClient: - sesion desconectada
+2015-10-03 18:34:06 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 18:34:06 INFO  SFTPClient: - fichero enviado
+2015-10-03 18:34:06 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:14:51 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:14:51 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:14:51 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:14:51 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:14:51 ERROR SFTPAbstract: - no se ha leido el fichero de properties 
+java.io.FileNotFoundException: /properties/FTP.properties (No existe el archivo o el directorio)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at sftp.SFTPAbstract.<init>(SFTPAbstract.java:38)
+	at sftp.SFTPClient2.<init>(SFTPClient2.java:22)
+	at sftp.SFTPMain.main(SFTPMain.java:38)
+2015-10-03 19:15:15 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:15:15 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:15:15 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:15:15 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:15:30 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:15:30 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:15:30 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:15:30 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:15:31 INFO  SFTPAbstract: - se ha iniciado la seision
+2015-10-03 19:15:31 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-03 19:16:43 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:16:43 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:16:43 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:16:43 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:16:44 INFO  SFTPAbstract: - se ha iniciado la seision
+2015-10-03 19:16:44 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-03 19:16:44 ERROR SFTPClient2: - error en el envio del fichero /tmp/fichero2.txt reintentar 
+com.jcraft.jsch.JSchException: failed to send channel request
+	at com.jcraft.jsch.Request.write(Request.java:65)
+	at com.jcraft.jsch.RequestSftp.request(RequestSftp.java:47)
+	at com.jcraft.jsch.ChannelSftp.start(ChannelSftp.java:237)
+	at com.jcraft.jsch.Channel.connect(Channel.java:152)
+	at com.jcraft.jsch.Channel.connect(Channel.java:145)
+	at sftp.SFTPClient2.enviaSFTP(SFTPClient2.java:37)
+	at sftp.SFTPMain.main(SFTPMain.java:39)
+2015-10-03 19:17:13 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:17:13 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:17:13 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:17:13 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:17:14 INFO  SFTPAbstract: - se ha iniciado la seision
+2015-10-03 19:17:35 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:17:35 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:17:36 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:17:36 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:17:36 INFO  SFTPAbstract: - se ha iniciado la seision
+2015-10-03 19:17:36 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-03 19:17:36 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-03 19:17:36 INFO  SFTPClient2: - fichero enviado
+2015-10-03 19:17:36 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-03 19:17:36 INFO  SFTPAbstract: - desconectado
+2015-10-03 19:19:33 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:19:33 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:19:33 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:19:33 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:19:34 INFO  SFTPAbstract: - se ha iniciado la seision
+2015-10-03 19:19:34 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-03 19:19:34 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-03 19:19:34 INFO  SFTPClient2: - fichero enviado
+2015-10-03 19:19:34 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-03 19:19:34 INFO  SFTPAbstract: - desconectado
+2015-10-03 19:20:34 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:20:34 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:20:34 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:20:34 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:20:35 INFO  SFTPAbstract: - se ha iniciado la seision
+2015-10-03 19:20:35 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-03 19:20:35 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-03 19:20:35 INFO  SFTPClient2: - fichero enviado
+2015-10-03 19:20:35 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-03 19:20:35 INFO  SFTPAbstract: - desconectado
+2015-10-03 19:22:34 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:22:34 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:22:34 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:22:34 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:22:35 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-03 19:22:35 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-03 19:23:31 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 19:23:32 INFO  SFTPClient: - fichero enviado
+2015-10-03 19:23:32 INFO  SFTPClient: - sesion desconectada
+2015-10-03 19:23:32 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 19:23:33 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-03 19:23:33 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-03 19:23:33 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-03 19:23:33 INFO  SFTPClient2: - fichero enviado
+2015-10-03 19:23:33 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-03 19:23:33 INFO  SFTPAbstract: - desconectado
+2015-10-03 20:58:52 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-03 20:58:53 INFO  SFTPClient: - fichero enviado
+2015-10-03 20:58:55 INFO  SFTPClient: - sesion desconectada
+2015-10-03 20:58:58 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-03 20:59:05 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-03 20:59:05 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-03 20:59:06 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-03 20:59:14 INFO  SFTPClient2: - fichero enviado
+2015-10-03 20:59:14 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-03 20:59:15 INFO  SFTPAbstract: - desconectado
+2015-10-08 21:42:52 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-08 21:42:52 INFO  SFTPClient: - fichero enviado
+2015-10-08 21:42:52 INFO  SFTPClient: - sesion desconectada
+2015-10-08 21:42:52 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-08 21:42:53 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-08 21:42:53 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-08 21:42:53 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-08 21:42:53 INFO  SFTPClient2: - fichero enviado
+2015-10-08 21:42:53 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-08 21:42:53 INFO  SFTPAbstract: - desconectado
+2015-10-08 21:43:44 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-08 21:43:44 INFO  SFTPClient: - fichero enviado
+2015-10-08 21:43:44 INFO  SFTPClient: - sesion desconectada
+2015-10-08 21:43:44 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-08 21:43:46 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-08 21:43:46 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-08 21:43:46 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-08 21:43:46 INFO  SFTPClient2: - fichero enviado
+2015-10-08 21:43:46 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-08 21:43:46 INFO  SFTPAbstract: - desconectado
+2015-10-08 21:45:02 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-08 21:45:02 INFO  SFTPClient: - fichero enviado
+2015-10-08 21:45:02 INFO  SFTPClient: - sesion desconectada
+2015-10-08 21:45:02 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-08 21:45:03 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-08 21:45:03 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-08 21:45:03 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-08 21:45:03 INFO  SFTPClient2: - fichero enviado
+2015-10-08 21:45:03 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-08 21:45:03 INFO  SFTPAbstract: - desconectado
+2015-10-10 19:23:19 ERROR SFTPClient: - error de en la apertura del canal sftp 
+com.jcraft.jsch.JSchException: java.net.ConnectException: Conexión rehusada
+	at com.jcraft.jsch.Util.createSocket(Util.java:349)
+	at com.jcraft.jsch.Session.connect(Session.java:215)
+	at com.jcraft.jsch.Session.connect(Session.java:183)
+	at sftp.SFTPClient.setConfig(SFTPClient.java:78)
+	at sftp.SFTPClient.<init>(SFTPClient.java:40)
+	at sftp.SFTPMain.main(SFTPMain.java:36)
+Caused by: java.net.ConnectException: Conexión rehusada
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at com.jcraft.jsch.Util.createSocket(Util.java:343)
+	... 5 more
+2015-10-10 19:35:42 ERROR SFTPClient: - error de en la apertura del canal sftp 
+com.jcraft.jsch.JSchException: java.net.NoRouteToHostException: No existe ninguna ruta hasta el «host»
+	at com.jcraft.jsch.Util.createSocket(Util.java:349)
+	at com.jcraft.jsch.Session.connect(Session.java:215)
+	at com.jcraft.jsch.Session.connect(Session.java:183)
+	at sftp.SFTPClient.setConfig(SFTPClient.java:78)
+	at sftp.SFTPClient.<init>(SFTPClient.java:40)
+	at sftp.SFTPMain.main(SFTPMain.java:36)
+Caused by: java.net.NoRouteToHostException: No existe ninguna ruta hasta el «host»
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at com.jcraft.jsch.Util.createSocket(Util.java:343)
+	... 5 more
+2015-10-10 19:47:57 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 19:47:57 ERROR SFTPClient: - error en el envio del fichero /tmp/fichero1.txt reintentar 
+4: java.io.FileNotFoundException: /tmp/fichero1.txt (No existe el archivo o el directorio)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient.enviaSFTP(SFTPClient.java:62)
+	at sftp.SFTPMain.main(SFTPMain.java:37)
+Caused by: java.io.FileNotFoundException: /tmp/fichero1.txt (No existe el archivo o el directorio)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:474)
+	... 3 more
+2015-10-10 19:49:09 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 19:49:09 INFO  SFTPClient: - fichero enviado
+2015-10-10 19:49:09 INFO  SFTPClient: - sesion desconectada
+2015-10-10 19:49:09 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 19:49:10 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 19:49:10 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 19:49:10 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 19:49:10 INFO  SFTPClient2: - fichero enviado
+2015-10-10 19:49:10 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 19:49:10 INFO  SFTPAbstract: - desconectado
+2015-10-10 19:49:10 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 19:51:17 ERROR SFTPAbstract: - error al iniciar la sesion
+com.jcraft.jsch.JSchException: java.net.ConnectException: Expiró el tiempo de conexión
+	at com.jcraft.jsch.Util.createSocket(Util.java:349)
+	at com.jcraft.jsch.Session.connect(Session.java:215)
+	at com.jcraft.jsch.Session.connect(Session.java:183)
+	at sftp.SFTPAbstract.connnect(SFTPAbstract.java:50)
+	at sftp.SFTPClient3.connect(SFTPClient3.java:30)
+	at sftp.SFTPClient3.<init>(SFTPClient3.java:25)
+	at sftp.SFTPMain.main(SFTPMain.java:44)
+Caused by: java.net.ConnectException: Expiró el tiempo de conexión
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at com.jcraft.jsch.Util.createSocket(Util.java:343)
+	... 6 more
+2015-10-10 19:51:17 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 19:51:17 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 19:51:56 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 19:51:56 INFO  SFTPClient: - fichero enviado
+2015-10-10 19:51:56 INFO  SFTPClient: - sesion desconectada
+2015-10-10 19:51:56 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 19:51:57 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 19:51:57 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 19:51:57 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 19:51:57 INFO  SFTPClient2: - fichero enviado
+2015-10-10 19:51:57 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 19:51:57 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 19:54:38 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 19:54:39 INFO  SFTPClient: - fichero enviado
+2015-10-10 19:54:41 INFO  SFTPClient: - sesion desconectada
+2015-10-10 19:54:45 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 19:54:52 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 19:54:52 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 19:54:54 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 19:54:54 INFO  SFTPClient2: - fichero enviado
+2015-10-10 19:54:54 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 19:55:04 INFO  SFTPAbstract: - desconectado
+2015-10-10 19:55:08 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 19:57:42 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 19:57:43 INFO  SFTPClient: - fichero enviado
+2015-10-10 19:57:44 INFO  SFTPClient: - sesion desconectada
+2015-10-10 19:57:47 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 19:57:52 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 19:57:52 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 19:57:53 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 19:57:53 INFO  SFTPClient2: - fichero enviado
+2015-10-10 19:57:53 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 19:57:54 INFO  SFTPAbstract: - desconectado
+2015-10-10 19:57:54 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 19:58:32 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 19:58:32 INFO  SFTPClient: - fichero enviado
+2015-10-10 19:58:32 INFO  SFTPClient: - sesion desconectada
+2015-10-10 19:58:32 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 19:58:33 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 19:58:33 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 19:58:33 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 19:58:33 INFO  SFTPClient2: - fichero enviado
+2015-10-10 19:58:33 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 19:58:33 INFO  SFTPAbstract: - desconectado
+2015-10-10 19:58:33 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 19:58:34 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 19:58:34 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 19:58:34 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 19:58:34 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:00:28 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:00:28 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:00:28 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:00:28 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:00:29 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:00:29 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:00:29 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:00:29 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:00:29 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:00:29 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:00:29 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:00:30 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:00:30 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:00:30 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:00:30 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:00:30 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:02:05 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:02:05 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:02:05 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:02:05 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:02:06 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:02:06 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:02:06 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:02:06 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:02:06 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:02:06 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:02:06 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:02:07 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:02:07 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:02:07 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:02:07 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:02:13 INFO  SFTPAbstract: - desconectado

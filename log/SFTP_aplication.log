@@ -1,0 +1,236 @@
+2015-10-10 20:03:37 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:03:37 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:03:37 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:03:37 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:03:38 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:03:38 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:03:38 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:03:38 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:03:38 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:03:38 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:03:38 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:03:39 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:03:39 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:03:39 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:03:39 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:03:39 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:06:03 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:06:03 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:06:03 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:06:03 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:06:04 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:06:04 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:06:04 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:06:04 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:06:04 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:06:04 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:06:04 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:06:05 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:06:05 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:06:05 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:06:05 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:06:05 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:12:31 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:12:31 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:12:31 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:12:31 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:12:33 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:12:33 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:12:33 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:12:33 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:12:33 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:12:33 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:12:33 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:12:34 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:12:34 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:12:34 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:12:34 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:12:34 INFO  SFTPMain: - pueba que no va a funcinoar enviar a la carpeta de otro usuario
+2015-10-10 20:12:34 INFO  SFTPMain: - excepcion capturada
+4: java.io.IOException: Pipe closed
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient3.enviaSFTP(SFTPClient3.java:41)
+	at sftp.SFTPMain.main(SFTPMain.java:49)
+Caused by: java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(PipedInputStream.java:307)
+	at com.jcraft.jsch.Channel$MyPipedInputStream.updateReadSide(Channel.java:362)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:389)
+	... 3 more
+2015-10-10 20:12:34 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:21:56 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:21:56 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:21:56 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:21:56 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:21:57 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:21:57 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:21:57 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:21:57 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:21:57 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:21:57 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:21:57 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:21:58 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:21:58 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:21:58 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:21:58 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:21:58 INFO  SFTPMain: - pueba que no va a funcinoar enviar a la carpeta de otro usuario
+2015-10-10 20:22:04 INFO  SFTPMain: - excepcion capturada
+4: java.io.IOException: Pipe closed
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient3.enviaSFTP(SFTPClient3.java:47)
+	at sftp.SFTPMain.main(SFTPMain.java:49)
+Caused by: java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(PipedInputStream.java:307)
+	at com.jcraft.jsch.Channel$MyPipedInputStream.updateReadSide(Channel.java:362)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:389)
+	... 3 more
+2015-10-10 20:22:05 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:22:07 INFO  SFTPMain: - codigo recuperacion de la excepcion
+2015-10-10 20:22:14 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:22:14 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:22:18 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:22:20 ERROR SFTPMain: - exception irrecuperable
+2015-10-10 20:22:29 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:22:29 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:22:29 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:22:29 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:22:30 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:22:30 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:22:30 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:22:30 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:22:30 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:22:30 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:22:30 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:22:30 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:22:30 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:22:30 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:22:30 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:22:30 INFO  SFTPMain: - pueba que no va a funcinoar enviar a la carpeta de otro usuario
+2015-10-10 20:22:43 INFO  SFTPMain: - excepcion capturada
+4: java.io.IOException: Pipe closed
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient3.enviaSFTP(SFTPClient3.java:47)
+	at sftp.SFTPMain.main(SFTPMain.java:49)
+Caused by: java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(PipedInputStream.java:307)
+	at com.jcraft.jsch.Channel$MyPipedInputStream.updateReadSide(Channel.java:362)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:389)
+	... 3 more
+2015-10-10 20:22:44 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:22:45 INFO  SFTPMain: - codigo recuperacion de la excepcion
+2015-10-10 20:22:55 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:22:55 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:23:05 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:23:15 ERROR SFTPMain: - exception irrecuperable
+2015-10-10 20:25:27 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:25:28 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:25:28 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:25:28 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:25:29 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:25:29 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:25:29 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:25:29 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:25:29 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:25:29 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:25:29 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:25:29 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:25:29 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:25:29 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:25:29 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:25:30 INFO  SFTPMain: - pueba que no va a funcinoar enviar a la carpeta de otro usuario
+2015-10-10 20:25:30 INFO  SFTPMain: - excepcion capturada
+4: java.io.IOException: Pipe closed
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient3.enviaSFTP(SFTPClient3.java:47)
+	at sftp.SFTPMain.main(SFTPMain.java:49)
+Caused by: java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(PipedInputStream.java:307)
+	at com.jcraft.jsch.Channel$MyPipedInputStream.updateReadSide(Channel.java:362)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:389)
+	... 3 more
+2015-10-10 20:25:30 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:25:30 INFO  SFTPMain: - codigo recuperacion de la excepcion
+2015-10-10 20:25:31 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:25:31 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:25:31 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:25:31 ERROR SFTPMain: - exception irrecuperable
+4: java.io.FileNotFoundException: /tmp/fichero3,txt (No existe el archivo o el directorio)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient3.enviaSFTP(SFTPClient3.java:47)
+	at sftp.SFTPMain.main(SFTPMain.java:56)
+Caused by: java.io.FileNotFoundException: /tmp/fichero3,txt (No existe el archivo o el directorio)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:474)
+	... 3 more
+2015-10-10 20:25:43 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:25:43 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:25:43 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:25:43 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:25:44 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:25:44 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:25:44 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:25:44 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:25:44 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:25:44 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:25:44 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:25:45 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:25:45 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:25:45 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:25:45 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:25:45 INFO  SFTPMain: - pueba que no va a funcinoar enviar a la carpeta de otro usuario
+2015-10-10 20:25:45 INFO  SFTPMain: - excepcion capturada
+4: java.io.IOException: Pipe closed
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient3.enviaSFTP(SFTPClient3.java:47)
+	at sftp.SFTPMain.main(SFTPMain.java:49)
+Caused by: java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(PipedInputStream.java:307)
+	at com.jcraft.jsch.Channel$MyPipedInputStream.updateReadSide(Channel.java:362)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:389)
+	... 3 more
+2015-10-10 20:25:45 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:25:45 INFO  SFTPMain: - codigo recuperacion de la excepcion
+2015-10-10 20:25:46 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:25:46 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:25:46 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:29:31 INFO  SFTPClient: - ha conectado por el canal de sftp
+2015-10-10 20:29:31 INFO  SFTPClient: - fichero enviado
+2015-10-10 20:29:31 INFO  SFTPClient: - sesion desconectada
+2015-10-10 20:29:31 INFO  SFTPMain: - ahora envio el segundo fichero, lo meto a mano
+2015-10-10 20:29:32 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:29:32 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:29:32 INFO  SFTPClient2: - ha conectado por el canal de sftp
+2015-10-10 20:29:32 INFO  SFTPClient2: - fichero enviado
+2015-10-10 20:29:32 INFO  SFTPClient2: - canalSftp desconectado
+2015-10-10 20:29:32 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:29:32 INFO  SFTPMain: - ahora el nuevo envio que tiene que ser tratado desde elsistema llamante
+2015-10-10 20:29:33 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:29:33 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:29:33 INFO  SFTPMain: - pueba que va a funcionar, al /tmp siempre puede enviar
+2015-10-10 20:29:33 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:29:33 INFO  SFTPMain: - pueba que no va a funcinoar enviar a la carpeta de otro usuario
+2015-10-10 20:29:33 INFO  SFTPMain: - excepcion capturada
+4: java.io.IOException: Pipe closed
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at sftp.SFTPClient3.enviaSFTP(SFTPClient3.java:47)
+	at sftp.SFTPMain.main(SFTPMain.java:49)
+Caused by: java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(PipedInputStream.java:307)
+	at com.jcraft.jsch.Channel$MyPipedInputStream.updateReadSide(Channel.java:362)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:389)
+	... 3 more
+2015-10-10 20:29:33 INFO  SFTPAbstract: - desconectado
+2015-10-10 20:29:33 INFO  SFTPMain: - codigo recuperacion de la excepcion
+2015-10-10 20:29:34 INFO  SFTPAbstract: - se ha iniciado la sesion
+2015-10-10 20:29:34 INFO  SFTPAbstract: - conectado al servidor externo
+2015-10-10 20:29:34 INFO  SFTPClient3: - esta conectado al servidor externo
+2015-10-10 20:29:34 INFO  SFTPAbstract: - desconectado
